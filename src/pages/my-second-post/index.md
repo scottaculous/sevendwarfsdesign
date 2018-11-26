@@ -1,10 +1,15 @@
 ---
-title: My Second Post!
+title: Site Building - Part 1
 date: "2018-11-21T17:22:37.121Z"
 ---
 #
 
 My first task was making deployment of this site easy by installing AWS Amplify
+
+1. Fix the development environment issues
+2. Commit to source control
+3. Deploy
+4. Automate deployment
 
 ## Step 0 - Fix the errors
 
@@ -29,8 +34,12 @@ Fix was to enter these commands on the terminal:
 
 I'm using Github.  You can find the code there.
 
-## Step 2 - Deploy fast
+## Step 2 - Deploy
 
 Deploying fast and smooth is first priority when a developer sets up their environment.  My goal is to deploy the content I write to AWS S3 after linting with a push of a command.
 
 I am following the Gatsby Guide on deploy to S3 <https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront>
+
+All the help is focused on creating new resources.  In my case, Amplify needs to be configured to use existing resources.
+
+## Step 3 - Automate pipeline

@@ -1,0 +1,15 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "sevendwarfsdesign-20181125205943-authRole",
+            "UnauthRoleArn": "arn:aws:iam::577105352861:role/sevendwarfsdesign-20181125205943-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::577105352861:role/sevendwarfsdesign-20181125205943-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "sevendwarfsdesign-20181125205943-deployment",
+            "UnauthRoleName": "sevendwarfsdesign-20181125205943-unauthRole",
+            "StackName": "sevendwarfsdesign-20181125205943",
+            "StackId": "arn:aws:cloudformation:us-east-2:577105352861:stack/sevendwarfsdesign-20181125205943/f2dbe3d0-f11e-11e8-b1ae-060ae44bf6ec"
+        }
+    },
+    "publish-ignore": []
+}
